@@ -45,9 +45,9 @@ El script realiza dos pasos principales:
 ### Ejemplo de salida:
 
 ```bash
-[>] User: ar
-[q] Password: jennifer
-[◐] Valid Users: ar
+[-] User: ar
+[-] Password: jennifer
+[-] Valid Users: ar
 
 [+] VALID CREDENTIALS:
     username: ar
